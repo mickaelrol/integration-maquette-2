@@ -1,0 +1,46 @@
+
+body{
+    margin: 0 auto;
+}
+.textslider{
+    color: floralwhite;
+    text-shadow: 1px 1px black;
+}
+.widthlogo{
+    max-width: 30%;
+}
+body main section div div article h2{
+    font-size: 140%;
+}
+body main section div div article p{
+    font-size: 100%;
+}
+.cartedefrance{
+    max-width: 100%;
+    height: auto;
+}
+
+/* #####################################################################  */
+/* ############################ Media tablette #########################  */
+/* #####################################################################  */
+@media screen and (min-width:44em){
+    .margin-right{
+        margin-right: 11rem;
+    }
+    .cartedefrance{
+        max-width: 200%;
+    }
+}
+
+
+
+
+
+/* #####################################################################  */
+/* ############################ Media Desktop ##########################  */
+/* #####################################################################  */
+@media screen and (min-width:64em){
+    .margin-right{
+        margin-right: 27rem;
+    }
+}

@@ -7,57 +7,248 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css" >
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="container-fluid">
-            <div class="row">            
-                <header>
-                    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                        <a class="navbar-brand" href="#">TITRE DE LA FORMATION</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                      
-                        <div class="collapse navbar-collapse ml-10" id="navbarsExample04">
-                          <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">La formation <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Outils</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Langages</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Nous contacter</a>
-                            </li>
-                        
-                          </ul>
-                        </div>
-                      </nav>
-
-                </header>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand margin-right" href="#">Développeur Web et <br> Web Mobile</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>              
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Le Metier</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">La Formation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Financement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
                 <main>
                     <section>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/slider1.jpg" class="d-block w-100" alt="slider1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="textslider">Un metier qui recrute !</h5>
+                                        <p class="textslider">Le metier de développeur web à le vent en poupe et cela ne risque pas de changer de si vite !</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/slider1.jpg" class="d-block w-100" alt="slider1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="textslider">Une formation diplomante</h5>
+                                        <p class="textslider">Cette formation vous permet d'obtenir une certification de niveau bac+2 ( titre reconnue par le RNCP )</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/slider1.jpg" class="d-block w-100" alt="slider1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="textslider">La formation ne s'arrete pas la !</h5>
+                                        <p class="textslider">Dans le metier de developpeur web les technologies evolues continuelement , l'apprentissage ne s'arrete donc pas a la fin de votre formation ! loin de la !</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                          </div>
 
                     </section>
                     <section>
+                        <div class="container">
+                            <div class="row"> 
+                                <article class="col-12 col-md-12 col-lg-4 mt-2">
+                                    <img src="images/Logo_Afpa.jpg" alt="logo-afpa" class="widthlogo float-left">
+                                    <h2 class="mt-4">Le metier de développeur web et web mobile :</h2>
+                                    <p>Il entre dans les coulisses du web, se faufile parmi les serveurs, connait un langage que seuls ses pairs pratiquent. Le développeur logiciel connaît la face cachée du web. Il code, teste, complète un cahier des charges, modélise. Sans lui, point de site de contenu, d’ e-commerce ou d’application.</p>
+                                    
 
-                    </section>
-                    <section>
+                                </article>
+                                <div class="col-lg-8">
+                                    <div class="col-lg-6">
+                                        <article class="col-12 col-md-12 col-lg-8 mt-2 ">
+                                            <h2>Objectifs de la formation</h2>
+                                            <p>- Développer la partie front-end d’une application web ou web mobile en intégrant les recommandations de sécurité</p>
+                                            
+                                            <p>- Développer la partie back-end d’une application web ou web mobile en intégrant les recommandations de sécurité</p>
 
-                    </section>
-                    <section>
-                        <div>
+                                        </article>
 
-                        </div>
-                        <div>
+                                        <article class="col-12 col-md-8 col-lg-12 mt-2">
+                                            <h2 class="text-center">Les technologies abordés:</h2>
+                                            <div class="d-flex flex justify-content-around">
+                                                <i class="fab fa-html5 my-1"></i>
+                                                <i class="fab fa-css3-alt my-1"></i>
+                                                <i class="fab fa-js my-1"></i>
+                                                <i class="fab fa-react my-1"></i>                                     
+                                                <i class="fab fa-php my-1"></i>
+                                                <i class="fab fa-symfony my-1"></i>
+                                                <i class="fas fa-database my-1"></i>
+                                                <i class="fab fa-wordpress my-1"></i>
 
-                        </div>
-                    </section>
+                                    </div>
+                                </div>
+                                    
+
+                                    </article>
+                                
+                                    <article class="col-12 col-md-4 col-lg-6 mt-2 ">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10704.332186700562!2d1.9070975999999997!3d47.876719349999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x911c6afbc7c1bdfe!2sAFPA!5e0!3m2!1sfr!2sfr!4v1596117606320!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="cartedefrance"></iframe>
+                                </div>    
+
+                                </article>
+                            </section>
+                        <section>
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <span class="font-weight-bold text-info">Le programme</span>
+                                        </button>
+                                        </h2>
+                                    </div>
+                                      
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>La formation se compose de 2 modules, complétés par 1 période en entreprise.</p> 
+
+ 
+
+                                            <p> <b> Période d'intégration.</b> Accueil, présentation des objectifs de formation, connaissance de l'environnement professionnel, sensibilisation au développement durable, adaptation du parcours de formation (1 semaine).</p>
+                                            
+                                             
+                                            <p> <b>
+                                            Module 1. <br></p><p> Développer la partie front-end d’une application web ou web mobile en intégrant les recommandations de sécurité : </b><br> maquettage d'une application <br> - Réalisation d'une interface utilisateur web statique et adaptable <br>- Développement d'une interface utilisateur web dynamique <br>- Réalisation d'une interface utilisateur avec une solution de gestion de contenu ou e-commerce <b> (11 semaines).</b></p>
+                                            
+                                             
+                                            <p><b>
+                                            Module 2.<br></p><p> Développer la partie back-end d’une application web ou web mobile en intégrant les recommandations de sécurité : </b><br> - Création d'une base de données <br>- Développement des composants d’accès aux données <br>- Développement de la partie back-end d’une application web ou web mobile <br>- Elaboration et mise en œuvre des composants dans une application de gestion de contenu ou e-commerce <b>(11 semaines).</b> </p>
+                                            
+                                             
+                                            <p><b>
+                                            Période en entreprise (10 semaines).</b></p>
+                                            
+                                            <p><b>
+                                            Session d'examen (1 semaine).</b></p>
+                                            <p><span class="text-info">
+                                            CERTIFICATION</span><br></p><p>
+                                            <b>L'ensemble des modules (5 au total) permet d'accéder au titre professionnel de niveau 5 de developpeur web et web mobile.</b> </p>
+                                            <p>
+                                            Des qualifications partielles, sous forme de certificats de compétences professionnelles (CCP), peuvent être obtenues en suivant un ou plusieurs modules :</p>
+                                            
+                                            <p>
+                                            CCP - Développer la partie front-end d’une application web ou web mobile en intégrant les recommandations de sécurité = Module 1</p>
+                                            
+                                             
+                                            <p>
+                                            CCP - Développer la partie back-end d’une application web ou web mobile en intégrant les recommandations de sécurité = Module 2</p>
+                                            
+                                             
+                                            <p>
+                                            A partir de l'obtention d'un CCP, vous pouvez vous présenter à l'autre CCP pour obtenir le titre professionnel dans la limite de la durée de validité du titre</p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="card">
+                                        <div class="card-header" id="headingTwo">
+                                            <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <span class="font-weight-bold text-info">L'admission</span>
+                                            </button>
+                                            </h2>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <p>
+                                                Prérequis<br><br>
+                                                Être titulaire du baccalauréat ou équivalent, de préférence scientifique ou technologique.</p>
+                                                <p>
+                                                Pratique courante recommandée de l'ordinateur, des smartphones et tablettes tactiles ainsi que de leurs outils (outils des systèmes d’exploitation, bureautique et internet).</p>
+                                                <p>
+                                                Pratique de l'anglais à l’oral et à l’écrit (lire, comprendre des textes courts, poser des questions simples et exprimer ses opinions).</p>
+                                                <p>
+                                                Accès à la formation</p>
+                                                <p>
+                                                Dossier de demande de formation</p>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="card">
+                                        <div class="card-header" id="headingThree">
+                                            <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <span class="font-weight-bold text-info"> Les Débouchés</span>
+                                            </button>
+                                            </h2>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section> 
+                            <!-- ########################### FORMULAIRE ###########################            -->
+                            <section>
+                                <form>
+                                    <div class="form-group col-12 col-md-6">
+                                        <label for="exampleInputEmail1">Nom</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1">                                        
+                                    </div>
+                                    <div class="form-group col-12 col-md-6">
+                                        <label for="exampleInputEmail1">Prénom</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1">                                        
+                                    </div>
+                                    <div class="form-group col-12 col-md-6">
+                                      <label for="exampleInputEmail1">Email address</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                      <small id="emailHelp" class="form-text text-muted">Pour recevoir la documentation a propos de la formation</small>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-primary ml-3">Recevoir la doc</button>
+                                  </form>
+
+                            </section>
+                            <section>
+
+                            </section>
+                            <section>
+                                <div>
+
+                                </div>
+                                <div>
+
+                                </div>
+                            </section>
                 </main>
             </div>
         </div>
